@@ -5,7 +5,7 @@ const Movies = ({ movies }) => {
 
   return (
     <div className="movies">
-      {movies.map((movie) => {
+      {movies.map((movie) => (
         <div className="movie" key={movie.imdbID}>
           <div className="movie-info">
             <img
@@ -25,7 +25,7 @@ const Movies = ({ movies }) => {
             </p>
           </div>
         </div>;
-      })}
+      ))}
     </div>
   );
 };
