@@ -10,8 +10,8 @@ const Movies = ({ movies }) => {
           <div className="movie-info">
             <img
               src={
-                movie.poster !== "N/A"
-                  ? movie.poster // affiche du film si elle existe
+                movie.Poster !== "N/A"
+                  ? movie.Poster // affiche du film si elle existe
                   : "https://placehold.co/300x450/000000/FFF?text=affiche+non+disponible" // placeholder sinon
               }
               alt={movie.Title}
